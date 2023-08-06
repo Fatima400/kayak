@@ -76,7 +76,7 @@ function Home() {
 
       <section id="reviews">
         <h1>WHAT PARENTS SAY ABOUT OUR PROJECT</h1>
-     
+         <p>‘’As a parent, seeing my child's growth through PaddleXplorer has been an absolute joy. The unique blend of outdoor adventure and character development has boosted his confidence immensely. He made great friends and learned invaluable life skills - all while having a ton of fun on the water. I couldn't recommend PaddleXplorer more!’’</p>
           
       </section>
 

@@ -8,9 +8,9 @@ body {
     box-sizing: border-box;
   }
   :root {
-    --primary-color: #749F82;
+    --primary-color: #fcfffd;
     --secondary-color: #A8E890;
-    --dunkelcolor: #425F57;
+    --dunkelcolor: #808080;
     --leightcolor: #CFFF8D;
   }
   

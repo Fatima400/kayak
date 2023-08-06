@@ -18,10 +18,10 @@ function Navbar() {
   const MobileMenu = () => {
     return (
       <nav className={"mobile-menu"}>
-        <Link to="/" onClick={toggleMobileMenu}>
-          <img src={logo} alt="Logo" width="50" />
-        </Link>
-
+         <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
+      
         <Link to="/" onClick={toggleMobileMenu}>
           Home
         </Link>
@@ -44,9 +44,7 @@ function Navbar() {
   return (
     <div className="topnav">
 
-      <Link to="/">
-        <img src={logo} alt="Logo" />
-      </Link>
+     
 
       <div className="menu-right">
 
@@ -57,11 +55,13 @@ function Navbar() {
         <Link to="/About">About</Link>
         <Link to="/Tours">Tours</Link>
 
-        <h1>PaddleXplorer</h1>
+        <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
 
         <Link to="/Support">Support us</Link>
 
-        {/* <Link to="/contact">Contact</Link> */}
+      <Link to="/contact">Contact</Link> 
       </nav>
 
       {/* This hamburger button only shows up on small screens. It is used to open the mobile menu */}
@@ -77,9 +77,7 @@ function Navbar() {
           &times;
         </button>
       )}
-      <nav className="menu2">
-        <Link to="/Contact">Contact</Link>
-      </nav>
+      
 
 
 

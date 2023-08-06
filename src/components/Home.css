@@ -1,7 +1,6 @@
 .home-hero {
     position: relative;
   }
-  
   .home-hero-text {
     position: absolute;
     top: 20%;
@@ -31,4 +30,40 @@
   section {
     min-height: 60vh;
     border: 1px solid red;
+  }
+  .benefits-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+  }
+  .benefits-card{
+
+    height: 200px;
+    width: 150px;
+   
+  }
+  #benefits h1{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .about-imag{
+    height: 400px;
+    width: 400px;
+    background-image: url(../images/image\ 9.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: auto;
+  }
+  .about-text{
+    height: 400px;
+    width: 400px;
+    display: flex;
+
+    flex-direction: column;
+  }
+  #about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }

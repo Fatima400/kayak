@@ -1,7 +1,7 @@
 // ContactForm.js
 
 import React, { useState } from 'react';
-
+import "./ContactForm.css";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -32,11 +32,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='form' onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label className='label' htmlFor="name">Name:</label>
         <input  
-        className='label'
+          className='input' 
           type="text"
           id="name"
           name="name"
@@ -48,6 +48,7 @@ const ContactForm = () => {
       <div>
         <label className='label'  htmlFor="phoneNumber">Phone Number:</label>
         <input
+         className='input' 
           type="tel"
           id="phoneNumber"
           name="phoneNumber"
@@ -59,6 +60,7 @@ const ContactForm = () => {
       <div>
         <label  className='label' htmlFor="email">Email:</label>
         <input
+         className='input' 
           type="email"
           id="email"
           name="email"
@@ -70,6 +72,7 @@ const ContactForm = () => {
       <div>
         <label  className='label' htmlFor="message">Message:</label>
         <textarea
+         className='input-message' 
           id="message"
           name="message"
           value={formData.message}

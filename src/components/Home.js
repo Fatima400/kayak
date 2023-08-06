@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 // read in database
 import Trips from "../data/data.json";
+import ContactForm from './ContactForm';
 
 function Home() {
   return (
@@ -73,8 +74,19 @@ function Home() {
           
       </section>
 
+      <section id="reviews">
+        <h1>WHAT PARENTS SAY ABOUT OUR PROJECT</h1>
+     
+          
+      </section>
+
+
+
       <section id="contact">
         <h1>Contact form</h1>
+        <ContactForm />
+     
+
       </section>
 
   <Footer/>

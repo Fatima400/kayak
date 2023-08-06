@@ -83,7 +83,7 @@ function Home() {
 
 
       <section id="contact">
-        <h1>Contact form</h1>
+        <h1 className="contact-h">Contact form</h1>
         <ContactForm />
      
 

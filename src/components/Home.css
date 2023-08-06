@@ -10,7 +10,7 @@
   
   
   .home-hero-image {
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/13.jpg");
     
     background-repeat: no-repeat;
     /* Values: repeat-x | repeat-y | no-repeat */
@@ -24,7 +24,7 @@
     background-attachment: fixed;
     /* Values: scroll | fixed */
   
-    min-height: 60vh;
+    min-height: 80vh;
   }
   
   section {
@@ -36,6 +36,7 @@
     flex-direction: row;
     gap: 50px;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .benefits-card{
 
@@ -66,4 +67,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .contact-h{
+text-align: center;
   }

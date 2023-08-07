@@ -34,7 +34,7 @@ const ContactForm = () => {
   return (
     <form className='form' onSubmit={handleSubmit}>
       <div>
-        <label className='label' htmlFor="name">Name:</label>
+        <label className='label' htmlFor="name">Name       :         </label>
         <input  
           className='input' 
           type="text"
@@ -46,7 +46,7 @@ const ContactForm = () => {
         />
       </div>
       <div>
-        <label className='label'  htmlFor="phoneNumber">Phone Number:</label>
+        <label className='label'  htmlFor="phoneNumber">Phone Number          :</label>
         <input
          className='input' 
           type="tel"
@@ -58,7 +58,7 @@ const ContactForm = () => {
         />
       </div>
       <div>
-        <label  className='label' htmlFor="email">Email:</label>
+        <label  className='label' htmlFor="email">Email            :</label>
         <input
          className='input' 
           type="email"
@@ -70,9 +70,10 @@ const ContactForm = () => {
         />
       </div>
       <div>
-        <label  className='label' htmlFor="message">Message:</label>
+        <label  className='label' htmlFor="message">Message              :</label>
         <textarea
-         className='input-message' 
+         className='input' 
+         
           id="message"
           name="message"
           value={formData.message}

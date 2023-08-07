@@ -75,11 +75,10 @@ padding-top: 20px;
 text-align: center;
   }
 #contact{
-    
-
-  background-color: aqua;
+   margin: 50px 50px; 
+  background-color: rgba(196, 191, 191, 0.592);
   height: 490px!important;
-  width: 900px;
+  width: 1000px;
  margin-left: 150px;
  margin-top: 50px;
  margin-bottom: 50px;

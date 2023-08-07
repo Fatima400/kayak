@@ -33,7 +33,7 @@ const ContactForm = () => {
 
   return (
     <form className='form' onSubmit={handleSubmit}>
-      <div>
+      <div><div>
         <label className='label' htmlFor="name">Name       :         </label>
         <input  
           className='input' 
@@ -80,8 +80,9 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
-      </div>
-      <button type="submit">Submit</button>
+      </div></div>
+      <div className='contact-button'>   <button type="submit">Submit</button></div>
+   
     </form>
   );
 };

@@ -6,6 +6,7 @@ import Navbar from "./Navbar"
 // read in database
 import Trips from "../data/data.json";
 import ContactForm from './ContactForm';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -24,20 +25,24 @@ function Home() {
         <h1> TRIPS BENEFITS</h1>
         <div className="benefits-cards">
           <div className="benefits-card">
+          <div className="benefits-imag"></div>
            <h2>Friendship</h2>
            <p>Shared adventures foster lasting bonds and create unforgettable memories</p>
           </div>
           <div className="benefits-card" >
+          <div className="benefits-imag"></div>
           <h2>Nature</h2>
           <p>An immersive outdoor experience that fosters a deep appreciation for the environment</p>
 
           </div>
           <div className="benefits-card"  >
+          <div className="benefits-imag"></div>
           <h2>Life skills</h2>
           <p>Learn teamwork, communication, and resilience through hands-onkayaking challenges</p>
 
           </div>
           <div className="benefits-card"> 
+          <div className="benefits-imag"></div>
           <h2>Confidence</h2>
           <p>Master kayaking to boost self-trust and readiness to tackle new challenges</p>
 
@@ -50,7 +55,14 @@ function Home() {
         <div className="about-text"> 
         <h1>About us</h1>
       
-        <p>loremdüpovjjjjjjeoijferiojvoiernvhjrvhjbrehjvbre</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+        Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis
+        sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+        Vestibulum lacinia arcu eget nulla.
+        </p>
+        <div> <Link to="/About" className="about-link">READ MORE</Link></div>
+       
+
         </div>
     
       </section>
@@ -83,10 +95,10 @@ function Home() {
 
 
       <section id="contact">
-        <h1 className="contact-h">Contact form</h1>
+        <h1 className="contact-h">CONTACT US</h1>
+        <p className="contact-p">Ready to embark on an unforgettable adventure? Contact us today to book <br/> your child's spot on our next kayaking journey.   </p>
         <ContactForm />
      
-
       </section>
 
   <Footer/>

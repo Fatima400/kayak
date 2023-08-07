@@ -31,6 +31,9 @@
     min-height: 60vh;
     border: 1px solid red;
   } */
+  #benefits{
+    height: 700px;
+  }
   .benefits-cards{
     display: flex;
     flex-direction: row;
@@ -40,13 +43,28 @@
   }
   .benefits-card{
 
-    height: 200px;
-    width: 150px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
+  }
+  .benefits-imag{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/canoe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #benefits h1{
     text-align: center;
     margin-top: 100px;
+  }
+  .benefits-card p{
+   text-align: center;
   }
   .about-imag{
     height: 400px;
@@ -60,24 +78,39 @@
     height: 400px;
     width: 400px;
     display: flex;
-
     flex-direction: column;
   }
   #about{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 50px;
+  }
+  .about-link{
+    color: black;
+    font-size: 12px;
+  }
+
+
+  #reviews{
+    height: 500px;
+    width: 100%;
   }
   
   
   .contact-h {
-padding-top: 20px;
+padding-top: 40px;
 text-align: center;
+color: rgba(146, 144, 144, 0.962); 
+  }
+  .contact-p{
+    font-size: 20px;
+    text-align: center;
   }
 #contact{
    margin: 50px 50px; 
   background-color: rgba(196, 191, 191, 0.592);
-  height: 490px!important;
+  height: 600px!important;
   width: 1000px;
  margin-left: 150px;
  margin-top: 50px;

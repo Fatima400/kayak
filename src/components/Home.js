@@ -2,11 +2,13 @@ import React from "react";
 
 import "./Home.css";
 import Footer from "./Footer"
+// import TripsComponent from "./TripsComponent";
 import Navbar from "./Navbar"
-// read in database
+
 import Trips from "../data/data.json";
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -73,8 +75,7 @@ function Home() {
         </div>
       </section>
 
-
-
+      
       <section >
         <h1 className="tours-titel">NEW TRIPS ARE COMING</h1>
       <div id="tours">

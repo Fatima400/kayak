@@ -16,5 +16,23 @@
     "name": "Trip 3",
     "date": "Sep 2023",
     "URL": "images/trip.png"
+  },
+  {
+    "id": 4,
+    "name": "Trip 4",
+    "date": "Oct 2023",
+    "URL": "images/trip.png"
+  },
+  {
+    "id": 5,
+    "name": "Trip 5",
+    "date": "Nov 2023",
+    "URL": "images/trip.png"
+  },
+  {
+    "id": 5,
+    "name": "Trip 6",
+    "date": "Dec 2023",
+    "URL": "images/trip.png"
   }
 ]

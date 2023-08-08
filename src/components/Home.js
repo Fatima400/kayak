@@ -75,15 +75,16 @@ function Home() {
 
 
 
-      <section id="tours">
-        <h1>Trips and upcoming trips</h1>
-
+      <section >
+        <h1 className="tours-titel">NEW TRIPS ARE COMING</h1>
+      <div id="tours">
         {Trips &&
           Trips.map((trip) => {
             return (
-              <div key={trip.id}>
+              
+              <div className="trip-card" key={trip.id}>
                 {/* images from URL */}
-                <img src={trip.URL} alt="trip" />
+                <img className="trip-img" src={trip.URL} alt="trip" />
                 {/* text on overlay banner */}
                 <div>
                   {trip.name} {trip.date}
@@ -91,7 +92,7 @@ function Home() {
               </div>
             );
           })}
-
+      </div>
       </section>
 
       <section id="reviews">

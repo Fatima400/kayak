@@ -1,5 +1,5 @@
 .topnav {
-    background: #ced1e1;
+  background: transparent;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -79,7 +79,7 @@
   
   .mobile-menu a {
     padding: 10px 0px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(6, 6, 6, 0.7);
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;

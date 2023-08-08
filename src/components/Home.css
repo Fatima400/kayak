@@ -2,14 +2,16 @@
     position: relative;
   }
   .home-hero-text {
-    position: absolute;
-    top: 20%;
+
+    margin-top: 250px;
     left: 50%;
+    position: absolute;
+    font-size: 30px;
     transform: translate(-50%, -50%);
   }
   
   
-  .home-hero-image {
+  .home-hero {
     background-image: url("../images/13.jpg");
     
     background-repeat: no-repeat;
@@ -24,7 +26,7 @@
     background-attachment: fixed;
     /* Values: scroll | fixed */
   
-    min-height: 80vh;
+    min-height: 100vh;
   }
   
   /* section {
@@ -66,38 +68,65 @@
   .benefits-card p{
    text-align: center;
   }
-  .about-imag{
+  .mission-titel{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .mission-imag{
+  
     height: 400px;
     width: 400px;
     background-image: url(../images/image\ 9.png);
     background-repeat: no-repeat;
     background-position:center;
-    background-size: auto;
+    background-size: cover;
+
   }
-  .about-text{
+  
+  .mission-text{
     height: 400px;
     width: 400px;
     display: flex;
     flex-direction: column;
+    padding-top: 100px;
   }
-  #about{
+  #mission{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 50px;
+    
   }
-  .about-link{
+  .mission-link{
     color: black;
     font-size: 12px;
   }
 
+#tours{
+  height: 500px;
+  width: 500px;
+}
+#tours h1{
+  
+  text-align: center;
 
+}
   #reviews{
     height: 500px;
     width: 100%;
   }
+  .reviews-titel{
   
+    font-size: 30px;
+    text-align: center;
+  }
   
+  .reviews-text{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40%;
+  }
   .contact-h {
 padding-top: 40px;
 text-align: center;

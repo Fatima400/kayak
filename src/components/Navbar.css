@@ -30,6 +30,7 @@
   }
   .menu a:hover {
     color: var(--link-hover);
+    
   }
   .menu2 a {
     font-weight: bold;
@@ -74,6 +75,7 @@
     background: transparent;
     font-size: 50px;
     color: var(--main-text);
+    
     cursor: pointer;
   }
   

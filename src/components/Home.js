@@ -1,16 +1,18 @@
 import React from "react";
-
 import "./Home.css";
 import Footer from "./Footer"
-// import TripsComponent from "./TripsComponent";
 import Navbar from "./Navbar"
 
-import Trips from "../data/data.json";
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
 
 
+
+import Trips from '../data/data.json'
+
 function Home() {
+
+
   return (
     <div>
       <section id="home-hero" className="home-hero">
@@ -18,7 +20,8 @@ function Home() {
         <h1 className="home-hero-text">
           <h3>Empowering Youth</h3>
           <h5>...one paddle at a time...</h5>
-          <button>SEE  TOURS </button>
+          <Link  to="/Tours" className="tours-link">SEE TOURS</Link>
+          {/* <button>SEE  TOURS </button> */}
         </h1>
         <div className="home-hero-image"></div>
       </section>
@@ -95,6 +98,8 @@ function Home() {
           })}
       </div>
       </section>
+  
+
 
       <section id="reviews">
         <h1 className="reviews-titel">WHAT PARENTS SAY ABOUT OUR PROJECT</h1>

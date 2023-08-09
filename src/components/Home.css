@@ -29,7 +29,13 @@
 
   min-height: 100vh;
 }
-
+.tours-link{
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: black;
+  font-size: 14px;
+}
 /* section {
     min-height: 60vh;
     border: 1px solid red;
